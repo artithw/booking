@@ -15,3 +15,4 @@ Route::get('/', function () {
     //return view('welcome');
     return view('booking');
 });
+Route::get('events', 'EventController@index');
